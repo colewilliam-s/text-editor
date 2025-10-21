@@ -1,0 +1,28 @@
+{
+  "name": "text-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colewilliam-s/text-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colewilliam-s/text-editor/issues"
+  },
+  "homepage": "https://github.com/colewilliam-s/text-editor#readme",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "electron": "^38.3.0",
+    "typescript": "^5.9.3"
+  }
+  
+}
